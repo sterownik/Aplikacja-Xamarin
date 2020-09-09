@@ -1,0 +1,15 @@
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\bin\Debug\netstandard2.0\Tituto.deps.json
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\bin\Debug\netstandard2.0\Tituto.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\bin\Debug\netstandard2.0\ref\Tituto.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\bin\Debug\netstandard2.0\Tituto.pdb
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Tituto.csprojAssemblyReference.cache
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Tituto.AssemblyInfoInputs.cache
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Tituto.AssemblyInfo.cs
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Tituto.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\ref\Tituto.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Tituto.pdb
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Views\MainView.xaml.g.cs
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\Tituto.csproj.CoreCompileInputs.cache
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto\obj\Debug\netstandard2.0\XamlC.stamp
