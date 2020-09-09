@@ -54,6 +54,30 @@
 
 
         </Grid>
+        
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300" />
+                <RowDefinition Height="300" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  />
+                <ColumnDefinition />
+                
+            </Grid.ColumnDefinitions>
+            <Frame CornerRadius="15" Margin="6"  BackgroundColor="{StaticResource ProgressColor}"></Frame>
+            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource ProgressColor}"></Frame>
+            <Frame CornerRadius="15" Margin="6" Grid.Column="0" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}"></Frame>
+            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}"></Frame>
+
+
+
+        </Grid>
+
+
+        <Button BackgroundColor="Red" Text="Wyloguj"/>
 
 
 
