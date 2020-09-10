@@ -499,7 +499,13 @@ D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\and
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\android\src\crc64eeb36180fe6023e2\SfEffectsViewRenderer.java
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\android\src\crc64f606ab658bf2774f\SfShimmerRenderer.java
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\android\src\crc64f606ab658bf2774f\ShimmerViewRenderer.java
-D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\whistle.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\examine.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\law.png
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\learn.png
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\podium.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\rec.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\record.png
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\star.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\teacher.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\folse.png
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.Android\obj\Debug\90\res\drawable\whistle.png

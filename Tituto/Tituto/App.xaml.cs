@@ -1,7 +1,5 @@
-﻿using System;
-using Tituto.Views;
+﻿using Tituto.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Tituto
 {
@@ -12,7 +10,7 @@ namespace Tituto
             InitializeComponent();
 
             MainPage = new MainView();
-            
+
         }
 
         protected override void OnStart()

@@ -67,10 +67,98 @@
                 <ColumnDefinition />
                 
             </Grid.ColumnDefinitions>
-            <Frame CornerRadius="15" Margin="6"  BackgroundColor="{StaticResource ProgressColor}"></Frame>
-            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource ProgressColor}"></Frame>
-            <Frame CornerRadius="15" Margin="6" Grid.Column="0" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}"></Frame>
-            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}"></Frame>
+            
+            <Frame CornerRadius="15" Margin="6"  BackgroundColor="{StaticResource ProgressColor}">
+                <StackLayout>
+                    <Image  Source="law.png"/>
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,10,0,0" FontSize="16" Text="REGULAMINOWY KRÓL"/>
+
+                    <StackLayout  >
+                        <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
+                        <AbsoluteLayout>
+                            
+                            
+                        
+                        <Label x:Name="FirstQuiz" Margin="0,8,0,0" />
+                        <Image Margin="110,0,0,0"  Source="rec.png"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+                   
+                </StackLayout>
+                
+
+
+
+
+
+
+
+
+            </Frame>
+            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource ProgressColor}">
+
+                <StackLayout>
+                    <Image  Source="Folse.png"/>
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,28,0,0" FontSize="16" Text="PRAWDA FAŁSZ"/>
+
+                    <StackLayout  >
+                        <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
+                        <AbsoluteLayout>
+
+
+
+                            <Label x:Name="SecondQuiz" Margin="0,8,0,0" />
+                            <Image Margin="110,0,0,0"  Source="rec.png"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Frame>
+            <Frame CornerRadius="15" Margin="6" Grid.Column="0" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}">
+
+
+                <StackLayout>
+                    <Image  Source="teacher.png"/>
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,22,0,0" FontSize="16" Text="SALA TRENINGOWA"/>
+
+                    <StackLayout  >
+                        <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
+                        <AbsoluteLayout>
+
+
+
+                            <Label x:Name="ThirdQuiz" Margin="0,8,0,0" />
+                            <Image Margin="110,0,0,0"  Source="rec.png"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Frame>
+            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}">
+
+
+                <StackLayout>
+                    <Image  Source="Examine.png"/>
+                    <Label  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,22,0,0" FontSize="16" Text="EGZAMIN"/>
+
+                    <StackLayout  >
+                        <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
+                        <AbsoluteLayout>
+
+
+
+                            <Label x:Name="FourthQuiz" Margin="0,8,0,0" />
+                            <Image Margin="110,0,0,0"  Source="rec.png"/>
+                        </AbsoluteLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+
+
+            </Frame>
 
 
 

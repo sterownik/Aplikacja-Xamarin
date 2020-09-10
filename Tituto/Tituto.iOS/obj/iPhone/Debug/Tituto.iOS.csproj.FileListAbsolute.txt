@@ -57,3 +57,8 @@ D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\obj\iPhone\Debug\Xam
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\obj\iPhone\Debug\Tituto.iOS.csproj.CopyComplete
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\obj\iPhone\Debug\Tituto.iOS.exe
 D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\obj\iPhone\Debug\Tituto.iOS.pdb
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\bin\iPhone\Debug\Syncfusion.Core.XForms.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\bin\iPhone\Debug\Syncfusion.Core.XForms.iOS.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\bin\iPhone\Debug\Syncfusion.SfProgressBar.XForms.dll
+D:\zadanieTestowe\aplikacjaXamarin\Tituto\Tituto\Tituto.iOS\bin\iPhone\Debug\Syncfusion.SfProgressBar.XForms.iOS.dll
