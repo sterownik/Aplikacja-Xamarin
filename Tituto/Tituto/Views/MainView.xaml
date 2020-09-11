@@ -29,34 +29,34 @@
 
 
             <StackLayout   Grid.ColumnSpan="2"  Grid.Column="1">
-                <Label Margin="10,20,10,0" FontAttributes="Italic" FontSize="22"  TextColor="{StaticResource ProgressColor}" HorizontalTextAlignment="Center" Text="Wojtek"/>
-                <Label  Margin="10,15,10,0" FontAttributes="Italic" LineHeight="1.3" VerticalTextAlignment="Start"  HorizontalTextAlignment="Center"  Text="Poziom 12"/>
+                <Label Margin="10,20,10,0" FontAttributes="Italic" FontSize="22"  TextColor="{StaticResource ProgressColor}" HorizontalTextAlignment="Center" x:Name="LabelName"/>
+                <Label TextColor="{StaticResource TextColorLabel}"  x:Name="Level"  Margin="10,15,10,0" FontAttributes="Italic" LineHeight="1.3" VerticalTextAlignment="Start"  HorizontalTextAlignment="Center"  />
                 
             </StackLayout>
             <StackLayout Padding="10" Margin="4" Grid.ColumnSpan="2"  Grid.Column="3">
-                <ImageButton  Padding="5"   CornerRadius="8" BackgroundColor="#ddd"  Source="Learn.png" />
-                <Label FontSize="11" HorizontalTextAlignment="Center" Text="Samouczek"/>
+                <ImageButton ClassId="Witamy w Samouczku" x:Name="sender"   Clicked="OnClickButtons"  Padding="5"   CornerRadius="8" BackgroundColor="#ddd"  Source="Learn.png" />
+                <Label TextColor="{StaticResource TextColorLabel}" x:Name="Samouczek" FontSize="11" HorizontalTextAlignment="Center" Text="Samouczek"/>
             </StackLayout>
             
             
            
             <StackLayout Padding="10" Margin="4" Grid.ColumnSpan="2"  Grid.Column="5">
 
-                <ImageButton Padding="0,5,0,5"  CornerRadius="8" BackgroundColor="#ddd" Source="podium.png" />
-                <Label FontSize="11" HorizontalTextAlignment="Center" Text="Wyniki"/>
+                <ImageButton ClassId="Tablica Wyników"   Clicked="OnClickButtons"    Padding="0,5,0,5"  CornerRadius="8" BackgroundColor="#ddd" Source="podium.png" />
+                <Label TextColor="{StaticResource TextColorLabel}" FontSize="11" HorizontalTextAlignment="Center" Text="Wyniki"/>
             </StackLayout>
 
             <StackLayout Margin="3,20,0,0" Padding="4"  Grid.Column="7">
 
                 <Image   Source="star.png" />
-                <Label FontSize="11" HorizontalTextAlignment="Center" Text="23"/>
+                <Label TextColor="{StaticResource TextColorLabel}" x:Name="NumberStars" FontSize="11" HorizontalTextAlignment="Center" />
             </StackLayout>
 
 
         </Grid>
-        
 
-        <Grid Margin="5,0,5,0" >
+        <ScrollView>
+            <Grid Margin="5,0,5,0" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="300" />
                 <RowDefinition Height="300" />
@@ -68,10 +68,13 @@
                 
             </Grid.ColumnDefinitions>
             
-            <Frame CornerRadius="15" Margin="6"  BackgroundColor="{StaticResource ProgressColor}">
+            <Frame x:Name="FirstFrame"   CornerRadius="15" Margin="6"  BackgroundColor="{StaticResource ProgressColor}">
                 <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTappedFirstFrame"/>
+                    </StackLayout.GestureRecognizers>
                     <Image  Source="law.png"/>
-                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,10,0,0" FontSize="16" Text="REGULAMINOWY KRÓL"/>
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,10,0,0" Style="{StaticResource LabelStyle}" Text="REGULAMINOWY KRÓL"/>
 
                     <StackLayout  >
                         <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
@@ -95,11 +98,14 @@
 
 
             </Frame>
-            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource ProgressColor}">
+            <Frame CornerRadius="15" x:Name="SecondFrame" Margin="6" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource ProgressColor}">
 
                 <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTappedSecondFrame"/>
+                    </StackLayout.GestureRecognizers>
                     <Image  Source="Folse.png"/>
-                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,28,0,0" FontSize="16" Text="PRAWDA FAŁSZ"/>
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,28,0,0" Style="{StaticResource LabelStyle}" Text="PRAWDA FAŁSZ"/>
 
                     <StackLayout  >
                         <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
@@ -115,12 +121,15 @@
                 </StackLayout>
 
             </Frame>
-            <Frame CornerRadius="15" Margin="6" Grid.Column="0" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}">
+            <Frame x:Name="ThirdFrame" CornerRadius="15" Margin="6" Grid.Column="0" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}">
 
 
                 <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTappedThirdFrame"/>
+                    </StackLayout.GestureRecognizers>
                     <Image  Source="teacher.png"/>
-                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,22,0,0" FontSize="16" Text="SALA TRENINGOWA"/>
+                    <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,22,0,0" Style="{StaticResource LabelStyle}" Text="SALA TRENINGOWA"/>
 
                     <StackLayout  >
                         <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
@@ -136,12 +145,15 @@
                 </StackLayout>
 
             </Frame>
-            <Frame CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}">
+            <Frame x:Name="FourthFrame" CornerRadius="15" Margin="6" Grid.Column="1" Grid.Row="1" BackgroundColor="{StaticResource ProgressColor}">
 
 
                 <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTappedFourthFrame"/>
+                    </StackLayout.GestureRecognizers>
                     <Image  Source="Examine.png"/>
-                    <Label  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,22,0,0" FontSize="16" Text="EGZAMIN"/>
+                    <Label  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,22,0,0" Style="{StaticResource LabelStyle}" Text="EGZAMIN"/>
 
                     <StackLayout  >
                         <BoxView Color="{StaticResource MainColor}" WidthRequest ="100" HeightRequest="1"/>
@@ -163,6 +175,7 @@
 
 
         </Grid>
+        </ScrollView>
 
 
         <Button Margin="5,0,5,0" BackgroundColor="Red" Text="Wyloguj"/>

@@ -7,7 +7,12 @@
             <Color x:Key="MainColor">#264653</Color>
             <Color x:Key="ProgressColor">#2A9D8F</Color>
             <Color x:Key="TextColor">#264653</Color>
-           
+            <Color x:Key="TextColorLabel">#fff</Color>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="15"/>
+            </Style>
+
 
         </ResourceDictionary>
 
