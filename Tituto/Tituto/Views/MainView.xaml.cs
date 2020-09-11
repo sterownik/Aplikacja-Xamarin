@@ -39,8 +39,7 @@ namespace Tituto.Views
 
         async void OnClickButtons(object sender, EventArgs args)
         {
-           // await this.sender.FadeTo(0, 100);
-           // await this.sender.FadeTo(1, 100);
+           
             var button = (ImageButton)sender;
             await button.FadeTo(0, 200);
             await button.FadeTo(1, 200);
